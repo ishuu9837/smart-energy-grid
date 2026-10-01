@@ -17,9 +17,7 @@ An interactive learning website exploring how grid data, forecasting and adaptiv
 
 [Quick start](#quick-start) · [Features](#features) · [How it works](#how-it-works) · [Customize](#customize) · [Deploy](#deploy)
 
-![Smart energy network concept](generated-assets/hero.png)
 
-*Original AI-generated concept illustration.*
 
 </div>
 
