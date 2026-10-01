@@ -1,0 +1,120 @@
+[
+  {
+    "text": "Fang, X., Misra, S., Xue, G., & Yang, D. (2012). Smart grid \u2014 The new and improved power grid: A survey. IEEE Communications Surveys & Tutorials, 14(4), 944\u2013980.",
+    "url": "https://doi.org/10.1109/SURV.2011.101911.00087",
+    "sources": [
+      "SmartEnergyGrids_BDA_Topic9.pptx \u00b7 slide 12",
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11",
+      "SmartEnergyGrids_Topic9_v2.pptx \u00b7 slide 10"
+    ]
+  },
+  {
+    "text": "Fadlullah, Z. M., Tang, F., Mao, B., Kato, N., Akashi, O., Inoue, T., & Mizutani, K. (2017). State-of-the-art deep learning: Evolving machine intelligence toward tomorrow's intelligent network traffic control systems. IEEE Communications Surveys & Tutorials, 19(4), 2432\u20132455.",
+    "url": "https://doi.org/10.1109/COMST.2017.2707140",
+    "sources": [
+      "SmartEnergyGrids_BDA_Topic9.pptx \u00b7 slide 12",
+      "SmartEnergyGrids_Topic9_v2.pptx \u00b7 slide 10"
+    ]
+  },
+  {
+    "text": "Kong, W., Dong, Z. Y., Jia, Y., Hill, D. J., Xu, Y., & Zhang, Y. (2017). Short-term residential load forecasting based on LSTM recurrent neural network. IEEE Transactions on Smart Grid, 10(1), 841\u2013851.",
+    "url": "https://doi.org/10.1109/TSG.2017.2753802",
+    "sources": [
+      "SmartEnergyGrids_BDA_Topic9.pptx \u00b7 slide 12",
+      "SmartEnergyGrids_Topic9_v2.pptx \u00b7 slide 10"
+    ]
+  },
+  {
+    "text": "Tuballa, M. L., & Abundo, M. L. (2016). A review of the development of smart grid technology. Renewable and Sustainable Energy Reviews, 59, 710\u2013725.",
+    "url": "https://doi.org/10.1016/j.rser.2016.01.011",
+    "sources": [
+      "SmartEnergyGrids_BDA_Topic9.pptx \u00b7 slide 12",
+      "SmartEnergyGrids_Topic9_v2.pptx \u00b7 slide 10"
+    ]
+  },
+  {
+    "text": "Yildiz, B., Bilbao, J. I., & Sproul, A. B. (2017). A review and analysis of regression and machine learning models on commercial building electricity load forecasting. Renewable and Sustainable Energy Reviews, 73, 1104\u20131122.",
+    "url": "https://doi.org/10.1016/j.rser.2017.02.023",
+    "sources": [
+      "SmartEnergyGrids_BDA_Topic9.pptx \u00b7 slide 12",
+      "SmartEnergyGrids_Topic9_v2.pptx \u00b7 slide 10"
+    ]
+  },
+  {
+    "text": "Ahmad, T., et al. (2019). Overview on data driven approaches for energy demand forecasting. Energy and Buildings, 165, 301\u2013320.",
+    "url": "https://doi.org/10.1016/j.enbuild.2018.01.017",
+    "sources": [
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11"
+    ]
+  },
+  {
+    "text": "Raza, M. Q., & Khosravi, A. (2015). AI-based load demand forecasting for smart grid. Renewable & Sustainable Energy Reviews, 50, 1352\u20131372.",
+    "url": "https://doi.org/10.1016/j.rser.2015.04.065",
+    "sources": [
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11"
+    ]
+  },
+  {
+    "text": "Zheng, J., et al. (2013). Smart meters in smart grid: An overview. IEEE Green Technologies Conference, 57\u201364.",
+    "url": "https://doi.org/10.1109/GreenTech.2013.17",
+    "sources": [
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11"
+    ]
+  },
+  {
+    "text": "Tan, Y. T., & Kirschen, D. S. (2007). Co-optimization of energy and reserve in electricity markets. IEEE Trans. Power Systems, 21(4), 1778\u20131787.",
+    "url": "https://doi.org/10.1109/TPWRS.2006.882426",
+    "sources": [
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11"
+    ]
+  },
+  {
+    "text": "Siano, P. (2014). Demand response and smart grids \u2014 A survey. Renewable & Sustainable Energy Reviews, 30, 461\u2013478.",
+    "url": "https://doi.org/10.1016/j.rser.2013.10.022",
+    "sources": [
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11"
+    ]
+  },
+  {
+    "text": "Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. Neural Computation, 9(8), 1735\u20131780.",
+    "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+    "sources": [
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11"
+    ]
+  },
+  {
+    "text": "Vaswani, A., et al. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30, 5998\u20136008.",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "sources": [
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11"
+    ]
+  },
+  {
+    "text": "International Energy Agency. (2023). World energy outlook 2023. IEA.",
+    "url": "https://www.iea.org/reports/world-energy-outlook-2023",
+    "sources": [
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11"
+    ]
+  },
+  {
+    "text": "Lowe, R., et al. (2017). Multi-agent actor-critic for mixed cooperative-competitive environments. NeurIPS, 30.",
+    "url": "https://arxiv.org/abs/1706.02275",
+    "sources": [
+      "SmartGrid_Pro_YEswar.pptx \u00b7 slide 11"
+    ]
+  },
+  {
+    "text": "[6] Amin & Wollenberg (2005). doi:10.1109/MPAE.2005.1507024",
+    "url": "https://doi.org/10.1109/MPAE.2005.1507024",
+    "sources": [
+      "SmartEnergyGrids_Topic9_v2.pptx \u00b7 slide 10"
+    ]
+  },
+  {
+    "text": "[7] Haben et al. (2016). doi:10.1109/TSG.2015.2409786",
+    "url": "https://doi.org/10.1109/TSG.2015.2409786",
+    "sources": [
+      "SmartEnergyGrids_Topic9_v2.pptx \u00b7 slide 10"
+    ]
+  }
+]

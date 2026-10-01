@@ -1,0 +1,34 @@
+[
+  {
+    "file": "SmartEnergyGrids_BDA_Topic9.pptx",
+    "chart": "ppt/charts/chart1.xml",
+    "categories": [
+      "ARIMA",
+      "SVM",
+      "Random\nForest",
+      "LSTM"
+    ],
+    "values": [
+      "81.4",
+      "88.7",
+      "93.2",
+      "97.3"
+    ]
+  },
+  {
+    "file": "SmartEnergyGrids_Topic9_v2.pptx",
+    "chart": "ppt/charts/chart1.xml",
+    "categories": [
+      "ARIMA",
+      "SVM",
+      "Random Forest",
+      "LSTM"
+    ],
+    "values": [
+      "81.4",
+      "88.7",
+      "93.2",
+      "97.3"
+    ]
+  }
+]

@@ -1,0 +1,1316 @@
+[
+  {
+    "file": "SmartGrid_Pro_YEswar (1).pptx",
+    "sha256": "17f54e3903e4093198ac228a6dc55c40dffbe10de0e6d041b5663c016bb16cfa",
+    "slides": [
+      {
+        "slide": 1,
+        "text": [
+          "\u26a1",
+          "Smart Energy",
+          "Grids",
+          "& Sustainability",
+          "CASE STUDY  #9",
+          "Data-Driven Power",
+          "Distribution Optimization",
+          "What is this about?",
+          "Our power grids are old and wasteful. This study shows how",
+          "using DATA + AI can make electricity smarter, cheaper & greener.",
+          "Name: Y Eswar",
+          "Regd: [Your Regd. No.]",
+          "GITAM University, Hyderabad  \u2022  Submission: 5 March 2026"
+        ],
+        "notes": [
+          null,
+          "1"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 2,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "2 / 12",
+          "\ud83d\udd0c  The Problem \u2014 Why Do We Need Smart Grids?",
+          "\ud83d\udcb8",
+          "Electricity is Wasted",
+          "8\u201315% of all electricity produced never reaches your home.",
+          "It gets lost in transmission \u2014 like water leaking from old pipes.",
+          "\u2600\ufe0f",
+          "Renewables are Unpredictable",
+          "Solar works only in daytime. Wind stops when there's no breeze.",
+          "Old grids can't handle this \u2014 they need constant stable power.",
+          "\ud83d\udcca",
+          "No Smart Monitoring",
+          "Traditional grids have no real-time data. Nobody knows where",
+          "power is being wasted until the lights actually go out!"
+        ],
+        "notes": [
+          null,
+          "2"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 3,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "3 / 12",
+          "\ud83d\udccb  Abstract \u2014 What This Study Is About",
+          "In Simple Words:",
+          "We studied how to make electricity grids SMARTER using data and artificial intelligence.",
+          "Instead of wasting power, our system learns patterns, predicts demand, and automatically routes electricity where it's needed most \u2014 just like Google Maps but for electricity.",
+          "Key Terms:",
+          "Smart Grid",
+          "Machine Learning",
+          "IoT Sensors",
+          "Demand Forecasting",
+          "Renewable Energy",
+          "Load Balancing",
+          "10\u201318%",
+          "Electricity Saved",
+          "<3%",
+          "Prediction Error",
+          "\u20b98\u201312Cr",
+          "Annual Savings",
+          "25%",
+          "Less CO\u2082"
+        ],
+        "notes": [
+          null,
+          "3"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 4,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "4 / 12",
+          "\ud83d\udcda  What Have Other Researchers Found?",
+          "\u26a1 Waste   Ahmad et al. (2019)",
+          "Traditional electricity grids waste 8\u201315% of power just during transmission \u2014 before it even reaches homes.",
+          "\ud83d\udd01 Two-Way   Fang et al. (2012)",
+          "'Smart Grid' defined as a two-way digital network \u2014 electricity flows both ways, unlike old grids.",
+          "\ud83e\udd16 AI Wins   Raza & Khosravi (2015)",
+          "AI models (LSTM & SVM) predict electricity demand 35\u201340% more accurately than old statistical methods.",
+          "\u23f1 Speed   Zheng et al. (2013)",
+          "IoT smart meters detect grid problems in under 1 second \u2014 traditional SCADA systems take 2\u20135 seconds.",
+          "\u2600\ufe0f Renewables   Tan & Kirschen (2016)",
+          "When renewables exceed 30% of grid capacity, frequency instability occurs without predictive tools.",
+          "\ud83d\udcc9 Demand   Siano (2014)",
+          "Real-time pricing signals can reduce electricity peak demand by 15\u201320% through smart demand response."
+        ],
+        "notes": [
+          null,
+          "4"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 5,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "5 / 12",
+          "\ud83c\udf0d  Introduction \u2014 The Energy Story",
+          "\ud83c\udfed",
+          "Old Grid Problem",
+          "Old grids send electricity in ONE direction only.",
+          "Like a one-way street \u2014 can't handle traffic from both sides.",
+          "\ud83d\udd0c",
+          "What is a Smart Grid?",
+          "A smart grid is like a smart city \u2014 it uses sensors, internet & AI",
+          "to know EXACTLY where electricity is needed and routes it there.",
+          "\ud83c\udf24\ufe0f",
+          "The Renewable Challenge",
+          "Solar & wind power are great but unpredictable.",
+          "Without smart management, they cause voltage spikes & blackouts.",
+          "\ud83c\udfaf",
+          "Our Goal",
+          "Build an AI system that watches the grid 24/7, predicts demand,",
+          "and automatically balances electricity \u2014 saving money & CO\u2082."
+        ],
+        "notes": [
+          null,
+          "5"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 6,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "6 / 12",
+          "\ud83d\udea7  What's Missing in Current Systems? (Research Gaps)",
+          "01",
+          "\u23f0  Too Slow to React",
+          "Current systems use OLD data to make decisions. By the time a forecast is ready, the grid situation has already changed.",
+          "02",
+          "\ud83c\udfdd\ufe0f  Data is Isolated",
+          "IoT meters, weather data, and billing systems don't talk to each other. It's like 3 doctors treating the same patient separately.",
+          "03",
+          "\ud83d\udccf  Can't Scale Up",
+          "Models built for one city fail when applied to an entire state. Like a recipe that works for 4 people but fails for 400.",
+          "04",
+          "\u2601\ufe0f  Poor Renewable Handling",
+          "Systems assume fixed buffers for solar/wind uncertainty. They don't use live weather data to adjust in real time.",
+          "05",
+          "\ud83d\udd13  Security Risks",
+          "More IoT devices = more ways hackers can attack. Most optimization systems ignore cybersecurity completely."
+        ],
+        "notes": [
+          null,
+          "6"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 7,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "7 / 12",
+          "\ud83d\udca1  Our Solution \u2014 How It Works (3 Simple Steps)",
+          "STEP 1",
+          "\ud83d\udce1",
+          "Collect Data",
+          "(Data Acquisition Layer)",
+          "Smart meters + weather satellites + grid sensors send real-time data every 15 minutes. All data is collected in one central platform \u2014 like a single dashboard for the whole grid.",
+          "\u279c",
+          "STEP 2",
+          "\ud83e\udde0",
+          "Predict Demand",
+          "(AI Forecasting Engine)",
+          "An AI model (LSTM + Transformer) learns from past data to predict electricity demand hours in advance \u2014 like a weather forecast, but for power consumption. Accuracy: <3% error.",
+          "\u279c",
+          "STEP 3",
+          "\u2699\ufe0f",
+          "Auto-Balance the Grid",
+          "(Adaptive Control)",
+          "Reinforcement Learning agents at each substation automatically reroute power, activate battery storage, and send demand signals \u2014 no human needed. Just like autopilot in a plane."
+        ],
+        "notes": [
+          null,
+          "7"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 8,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "8 / 12",
+          "\ud83d\udee0\ufe0f  Tools & Technology Used",
+          "\ud83d\udcdf  Hardware",
+          "\u25b8  Smart Meters \u2014 measure electricity at every home/building",
+          "\u25b8  Edge computers \u2014 process data instantly on-site",
+          "\u25b8  Grid sensors \u2014 check voltage, current, frequency",
+          "\u25b8  Battery storage \u2014 store surplus renewable energy",
+          "\ud83d\udcbb  Software Stack",
+          "\u25b8  Apache Kafka \u2014 streams data in real time (like YouTube live)",
+          "\u25b8  Apache Spark \u2014 processes millions of data points fast",
+          "\u25b8  InfluxDB \u2014 stores time-series energy data",
+          "\u25b8  Kubernetes \u2014 manages all services in the cloud",
+          "\ud83e\udd16  AI / Machine Learning",
+          "\u25b8  PyTorch \u2014 trains the LSTM-Transformer AI model",
+          "\u25b8  XGBoost \u2014 fast 1-hour demand predictions",
+          "\u25b8  RLlib \u2014 reinforcement learning for grid control",
+          "\u25b8  Scikit-learn \u2014 data preprocessing & feature engineering",
+          "\ud83d\udcca  Monitoring & Reports",
+          "\u25b8  Grafana \u2014 real-time grid dashboard (live charts)",
+          "\u25b8  Power BI \u2014 executive summary reports",
+          "\u25b8  Airflow \u2014 schedules all ML jobs automatically",
+          "\u25b8  Anomaly alerts \u2014 notifies engineers of faults instantly"
+        ],
+        "notes": [
+          null,
+          "8"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 9,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "9 / 12",
+          "\ud83d\udcc8  Expected Results \u2014 What Will We Achieve?",
+          "\u26a1",
+          "10\u201318%",
+          "Less Power Wasted",
+          "in Transmission",
+          "\ud83c\udfaf",
+          "<3%",
+          "AI Forecast Error",
+          "(Very Accurate!)",
+          "\ud83c\udf31",
+          "25%",
+          "CO\u2082 Emissions",
+          "Reduced",
+          "\u2705",
+          "99.8%",
+          "Grid Uptime",
+          "(Was 99.2%)",
+          "\u26a1  Energy Efficiency",
+          "30% less fossil fuel backup needed  \u2022  8\u201315% peak demand reduced through smart demand response signals  \u2022  20% better use of solar & wind",
+          "\ud83d\udd2e  Forecasting Power",
+          "Day-ahead prediction: only 5% error  \u2022  Solar forecast error: under 8%  \u2022  35\u201340% better than traditional models like ARIMA",
+          "\ud83d\udcb0  Cost & Security",
+          "\u20b98\u201312 crore saved annually for a 500 MW utility  \u2022  Faults detected 30% faster  \u2022  95%+ cyberattack detection rate"
+        ],
+        "notes": [
+          null,
+          "9"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 10,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "10 / 12",
+          "\ud83c\udfc1  Conclusion \u2014 What Did We Learn?",
+          "\u2705  The Big Takeaway",
+          "By combining IoT sensors, AI forecasting, and reinforcement learning \u2014 we can transform old, wasteful power grids into intelligent systems that save electricity, cut costs, reduce carbon emissions, and support renewable energy. This is not just research \u2014 it is the future of energy infrastructure.",
+          "\ud83d\ude80  Future Work \u2014 What Comes Next?",
+          "\ud83e\udd1d",
+          "Federated Learning",
+          "Multiple utilities train AI together without sharing private data",
+          "\ud83e\ude9e",
+          "Digital Twin",
+          "Create a virtual copy of the grid for safe simulation & testing",
+          "\u26d3\ufe0f",
+          "Blockchain Trading",
+          "Let homes with solar panels sell excess power peer-to-peer",
+          "\ud83c\udf0d",
+          "Carbon Tracking",
+          "Real-time CO\u2082 meter for every kilowatt-hour delivered",
+          "\ud83d\udcf1",
+          "Edge AI",
+          "Run AI models directly on substation hardware \u2014 no cloud needed"
+        ],
+        "notes": [
+          null,
+          "10"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 11,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "11 / 12",
+          "\ud83d\udcd6  References  (APA 7th Edition)",
+          "1",
+          "Ahmad, T., et al. (2019). Overview on data driven approaches for energy demand forecasting. Energy and Buildings, 165, 301\u2013320.",
+          "https://doi.org/10.1016/j.enbuild.2018.01.017",
+          "2",
+          "Fang, X., et al. (2012). Smart grid \u2014 The new and improved power grid: A survey. IEEE Comm. Surveys & Tutorials, 14(4), 944\u2013980.",
+          "https://doi.org/10.1109/SURV.2011.101911.00087",
+          "3",
+          "Raza, M. Q., & Khosravi, A. (2015). AI-based load demand forecasting for smart grid. Renewable & Sustainable Energy Reviews, 50, 1352\u20131372.",
+          "https://doi.org/10.1016/j.rser.2015.04.065",
+          "4",
+          "Zheng, J., et al. (2013). Smart meters in smart grid: An overview. IEEE Green Technologies Conference, 57\u201364.",
+          "https://doi.org/10.1109/GreenTech.2013.17",
+          "5",
+          "Tan, Y. T., & Kirschen, D. S. (2007). Co-optimization of energy and reserve in electricity markets. IEEE Trans. Power Systems, 21(4), 1778\u20131787.",
+          "https://doi.org/10.1109/TPWRS.2006.882426",
+          "6",
+          "Siano, P. (2014). Demand response and smart grids \u2014 A survey. Renewable & Sustainable Energy Reviews, 30, 461\u2013478.",
+          "https://doi.org/10.1016/j.rser.2013.10.022",
+          "7",
+          "Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. Neural Computation, 9(8), 1735\u20131780.",
+          "https://doi.org/10.1162/neco.1997.9.8.1735",
+          "8",
+          "Vaswani, A., et al. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30, 5998\u20136008.",
+          "https://arxiv.org/abs/1706.03762",
+          "9",
+          "International Energy Agency. (2023). World energy outlook 2023. IEA.",
+          "https://www.iea.org/reports/world-energy-outlook-2023",
+          "10",
+          "Lowe, R., et al. (2017). Multi-agent actor-critic for mixed cooperative-competitive environments. NeurIPS, 30.",
+          "https://arxiv.org/abs/1706.02275"
+        ],
+        "notes": [
+          null,
+          "11"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 12,
+        "text": [
+          "\u26a1",
+          "Thank You!",
+          "Questions & Discussion Welcome",
+          "Y Eswar  |  M.Tech Data Science (2025\u20132027)  |  GITAM University, Hyderabad",
+          "Smart Energy Grids & Sustainability  \u2022  Case Study #9  \u2022  5 March 2026"
+        ],
+        "notes": [
+          null,
+          "12"
+        ],
+        "pictures": 0
+      }
+    ],
+    "charts": []
+  },
+  {
+    "file": "SmartEnergyGrids_BDA_Topic9.pptx",
+    "sha256": "02e39dd85ac7f8e3ccb323710c3c651863b5f7ae1bbcfaa90316dee81294085a",
+    "slides": [
+      {
+        "slide": 1,
+        "text": [
+          "SMART ENERGY GRIDS",
+          "& SUSTAINABILITY",
+          "Data-Driven Power Distribution Optimization",
+          "TOPIC 9  |  Big Data Analytics \u2014 Case Study",
+          "Big Data Analytics (BDA) | M.Tech Data Science | GITAM University, Hyderabad"
+        ],
+        "notes": [
+          null,
+          "1"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 2,
+        "text": [
+          "STUDENT DETAILS",
+          "Registration No.:",
+          "2406XXXXX",
+          "Name:",
+          "Y Eswar",
+          "Email ID:",
+          "eswar854@example.com",
+          "Program:",
+          "M.Tech \u2014 Data Science (2025\u20132027)",
+          "University:",
+          "GITAM University, Hyderabad",
+          "Subject:",
+          "Big Data Analytics (BDA)",
+          "Date of Submission:",
+          "5th March 2026"
+        ],
+        "notes": [
+          null,
+          "2"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 3,
+        "text": [
+          "ABSTRACT",
+          "The global energy sector is undergoing a paradigm shift driven by renewable integration, rising demand, and climate sustainability goals. Traditional power grids, designed for one-directional flow, are ill-equipped to handle the complexity of modern distributed energy resources (DERs) and dynamic consumption patterns.",
+          "",
+          "Smart Energy Grids leverage Big Data Analytics, IoT sensors, machine learning, and real-time processing platforms (Apache Kafka, Spark) to enable intelligent, self-healing, and adaptive power distribution. This case study examines how terabytes of smart meter data, weather feeds, and grid sensor streams are analyzed to optimize load balancing, predict demand fluctuations, detect faults, and maximize renewable energy utilization.",
+          "",
+          "Proposed solutions demonstrate 18\u201325% energy efficiency improvements, 40% reduction in grid outage duration, and significant reductions in carbon emissions \u2014 positioning Big Data as the cornerstone of sustainable energy infrastructure in the era of Industry 4.0 and Net Zero targets."
+        ],
+        "notes": [
+          null,
+          "3"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 4,
+        "text": [
+          "KEYWORDS",
+          "Smart Energy Grid",
+          "Big Data Analytics",
+          "Demand Forecasting",
+          "Load Balancing",
+          "Renewable Energy",
+          "IoT Sensor Networks",
+          "Apache Kafka / Spark",
+          "Anomaly Detection",
+          "Distributed Energy Resources",
+          "Net Zero Emissions",
+          "Self-Healing Grid",
+          "Energy Efficiency"
+        ],
+        "notes": [
+          null,
+          "4"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 5,
+        "text": [
+          "INTRODUCTION",
+          "1.  Global electricity demand is projected to grow by 60% by 2040 (IEA, 2023), stressing legacy grid infrastructure.\n2.  Traditional grids: centralized, unidirectional power flow \u2014 unable to handle renewable energy variability.\n3.  Smart Grids integrate IoT sensors, smart meters, and real-time analytics for two-way power & data flow.\n4.  Big Data from millions of smart meters: 15-min interval readings, events, alerts \u2014 petabytes annually.\n5.  Key Big Data tools: Apache Kafka (streaming), Hadoop/Spark (batch + real-time), InfluxDB (time-series).\n6.  Sustainability goals (Paris Agreement, Net Zero 2050) demand data-driven optimization of energy distribution.",
+          "60%",
+          "Energy demand growth",
+          "by 2040 (IEA)",
+          "40%",
+          "Grid outage reduction",
+          "with smart analytics",
+          "25%",
+          "Energy efficiency",
+          "improvement with PdM"
+        ],
+        "notes": [
+          null,
+          "5"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 6,
+        "text": [
+          "LITERATURE SURVEY",
+          "01",
+          "Fang et al. (2012) \u2014 Smart Grid \u2014 The New and Improved Power Grid",
+          "Foundational survey; identified that integrating sensing, communication & computing cuts grid operational costs by up to 30%.",
+          "02",
+          "Fadlullah et al. (2017) \u2014 State-of-the-Art Deep Learning for Smart Grid Analytics",
+          "Deep learning (LSTM/CNN) on smart meter data achieves 97% accuracy in energy theft detection and demand forecasting.",
+          "03",
+          "Kong et al. (2017) \u2014 Short-Term Residential Load Forecasting",
+          "LSTM network outperforms ARIMA and SVM on 30-min interval smart meter data; MAPE reduced to 4.2%.",
+          "04",
+          "Zheng et al. (2014) \u2014 U-Air: Big Data Air Quality Forecasting",
+          "Demonstrated Spark-based pipeline processing 1.2M sensor readings/min for real-time grid event classification.",
+          "05",
+          "Tuballa & Abundo (2016) \u2014 A Review of the Development of Smart Grid Technology",
+          "Comprehensive review; Big Data analytics enables 15\u201320% renewable curtailment reduction via predictive dispatch."
+        ],
+        "notes": [
+          null,
+          "6"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 7,
+        "text": [
+          "RESEARCH GAP / PROBLEMS WITH EXISTING METHODS",
+          "\u26a0  Scalability of Real-Time Analytics",
+          "Existing grid monitoring systems cannot process millions of concurrent smart meter streams \u2014 causing delayed fault detection and response.",
+          "\u26a0  Renewable Intermittency Handling",
+          "Legacy forecasting models fail to accurately predict solar/wind variability, leading to wasteful over-provisioning and renewable curtailment.",
+          "\u26a0  Interoperability of Legacy Systems",
+          "Older grid infrastructure lacks standardized APIs and communication protocols (e.g., IEC 61968), making Big Data integration costly and complex.",
+          "\u26a0  Cyber Security Vulnerabilities",
+          "Increased connectivity in smart grids creates new attack surfaces; existing anomaly detection methods miss sophisticated grid cyber-attacks.",
+          "\u26a0  Data Privacy in Smart Metering",
+          "High-frequency meter readings can reveal household behaviour patterns \u2014 existing frameworks lack strong privacy-preserving analytics approaches."
+        ],
+        "notes": [
+          null,
+          "7"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 8,
+        "text": [
+          "PROPOSED SOLUTION",
+          "1",
+          "Smart Meter",
+          "Data Ingestion",
+          "Apache Kafka",
+          "IoT + AMI feeds",
+          "2",
+          "Big Data",
+          "Storage",
+          "HDFS + HBase",
+          "Time-series DB",
+          "3",
+          "Analytics",
+          "Engine",
+          "Apache Spark MLlib",
+          "Stream + Batch",
+          "4",
+          "AI Demand",
+          "Forecasting",
+          "LSTM + XGBoost",
+          "Load prediction",
+          "5",
+          "Control &",
+          "Optimization",
+          "SCADA integration",
+          "Auto load dispatch",
+          "KEY INNOVATIONS",
+          "\u2022 Federated Learning across smart meters preserves privacy while training demand models",
+          "\u2022 Digital Twin of power grid enables simulation of outage scenarios before deployment",
+          "\u2022 Differential Privacy applied to meter analytics \u2014 prevents household behaviour inference",
+          "\u2022 Graph Neural Networks (GNN) model grid topology for optimized power routing",
+          "\u2022 Edge computing nodes (Raspberry Pi clusters) pre-aggregate meter data to reduce latency"
+        ],
+        "notes": [
+          null,
+          "8"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 9,
+        "text": [
+          "IMPLEMENTATION SUPPORT",
+          "Datasets Used",
+          "UKPN Smart Meter Dataset (UK Power Networks)",
+          "Pecan Street Dataport \u2014 1,200 homes, 15-min intervals",
+          "NREL Solar & Wind Generation Dataset (USA)",
+          "Big Data Stack",
+          "Apache Kafka  \u2022  Apache Spark (MLlib + Streaming)",
+          "Hadoop HDFS  \u2022  InfluxDB (time-series)",
+          "Apache Flink \u2014 real-time event stream processing",
+          "ML / AI Models",
+          "LSTM \u2014 demand sequence forecasting",
+          "XGBoost \u2014 short-term load prediction",
+          "Isolation Forest \u2014 anomaly / theft detection",
+          "Cloud & Deployment",
+          "AWS IoT Greengrass \u2014 edge data pre-processing",
+          "Grafana + InfluxDB \u2014 grid monitoring dashboard",
+          "Docker + Kubernetes \u2014 scalable microservices",
+          "Evaluation Metrics",
+          "MAPE, RMSE \u2014 demand forecast accuracy",
+          "F1-Score, AUC-ROC \u2014 anomaly detection",
+          "Energy saved (kWh), CO\u2082 reduction (tons/year)",
+          "Grid Hardware / Sensors",
+          "Smart meters (DLMS/COSEM standard)",
+          "PMU (Phasor Measurement Units) @ 60 samples/sec",
+          "SCADA + EMS (Energy Management System)"
+        ],
+        "notes": [
+          null,
+          "9"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 10,
+        "text": [
+          "RESULTS",
+          "97.3%",
+          "Demand Forecast",
+          "Accuracy (LSTM)",
+          "40%",
+          "Grid Outage",
+          "Duration Reduction",
+          "22%",
+          "Renewable Energy",
+          "Curtailment Reduced",
+          "1.8s",
+          "Avg Fault Detection",
+          "Latency (Kafka)",
+          "Energy Theft Detection:",
+          "Isolation Forest detects 94.8% of theft cases; false positive rate < 3%",
+          "CO\u2082 Emissions Saved:",
+          "18,500 tons/year CO\u2082 reduction in pilot deployment (3 districts)",
+          "Load Balancing:",
+          "Peak demand shifted by 15% using real-time pricing signals from Kafka",
+          "Self-Healing Grid:",
+          "Automated rerouting restores power in avg 4.2 min vs 47 min manually"
+        ],
+        "notes": [
+          null,
+          "10"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 11,
+        "text": [
+          "CONCLUSION & FUTURE WORK",
+          "CONCLUSION",
+          "\u2714  Big Data Analytics transforms smart grids from passive infrastructure to intelligent, adaptive energy ecosystems.\n\n\u2714  The proposed LSTM + Spark pipeline achieves 97.3% demand forecast accuracy, enabling precise, proactive load dispatch.\n\n\u2714  Energy theft detection using Isolation Forest reduces revenue leakage by up to 30% in pilot zones.\n\n\u2714  Deployment results confirm 40% reduction in outage duration and 22% cut in renewable curtailment \u2014 advancing Net Zero goals.",
+          "FUTURE WORK",
+          "\u2192  Blockchain-based peer-to-peer energy trading marketplace using smart contracts for prosumer settlements.\n\n\u2192  Vehicle-to-Grid (V2G) analytics \u2014 leverage EV batteries as dynamic storage in demand response programs.\n\n\u2192  Quantum computing integration for solving large-scale grid optimization problems in real time.\n\n\u2192  Advanced privacy-preserving federated learning models across multiple grid operators without data sharing.\n\n\u2192  Digital Twin + Reinforcement Learning for autonomous grid self-healing and topology reconfiguration."
+        ],
+        "notes": [
+          null,
+          "11"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 12,
+        "text": [
+          "REFERENCES (APA Style)",
+          "[1] Fang, X., Misra, S., Xue, G., & Yang, D. (2012). Smart grid \u2014 The new and improved power grid: A survey. IEEE Communications Surveys & Tutorials, 14(4), 944\u2013980.",
+          "https://doi.org/10.1109/SURV.2011.101911.00087",
+          "[2] Fadlullah, Z. M., Tang, F., Mao, B., Kato, N., Akashi, O., Inoue, T., & Mizutani, K. (2017). State-of-the-art deep learning: Evolving machine intelligence toward tomorrow's intelligent network traffic control systems. IEEE Communications Surveys & Tutorials, 19(4), 2432\u20132455.",
+          "https://doi.org/10.1109/COMST.2017.2707140",
+          "[3] Kong, W., Dong, Z. Y., Jia, Y., Hill, D. J., Xu, Y., & Zhang, Y. (2017). Short-term residential load forecasting based on LSTM recurrent neural network. IEEE Transactions on Smart Grid, 10(1), 841\u2013851.",
+          "https://doi.org/10.1109/TSG.2017.2753802",
+          "[4] Tuballa, M. L., & Abundo, M. L. (2016). A review of the development of smart grid technology. Renewable and Sustainable Energy Reviews, 59, 710\u2013725.",
+          "https://doi.org/10.1016/j.rser.2016.01.011",
+          "[5] Yildiz, B., Bilbao, J. I., & Sproul, A. B. (2017). A review and analysis of regression and machine learning models on commercial building electricity load forecasting. Renewable and Sustainable Energy Reviews, 73, 1104\u20131122.",
+          "https://doi.org/10.1016/j.rser.2017.02.023",
+          "All DOI links are clickable and lead to the original research papers."
+        ],
+        "notes": [
+          null,
+          "12"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 13,
+        "text": [
+          "THANK",
+          "YOU",
+          "Smart Energy Grids",
+          "& Sustainability",
+          "Topic 9 | BDA Case Study",
+          "Y Eswar",
+          "M.Tech Data Science (2025\u20132027)",
+          "GITAM University, Hyderabad"
+        ],
+        "notes": [
+          null,
+          "13"
+        ],
+        "pictures": 0
+      }
+    ],
+    "charts": [
+      "ppt/charts/chart1.xml"
+    ]
+  },
+  {
+    "file": "SmartGrid_Pro_YEswar.pptx",
+    "sha256": "17f54e3903e4093198ac228a6dc55c40dffbe10de0e6d041b5663c016bb16cfa",
+    "slides": [
+      {
+        "slide": 1,
+        "text": [
+          "\u26a1",
+          "Smart Energy",
+          "Grids",
+          "& Sustainability",
+          "CASE STUDY  #9",
+          "Data-Driven Power",
+          "Distribution Optimization",
+          "What is this about?",
+          "Our power grids are old and wasteful. This study shows how",
+          "using DATA + AI can make electricity smarter, cheaper & greener.",
+          "Name: Y Eswar",
+          "Regd: [Your Regd. No.]",
+          "GITAM University, Hyderabad  \u2022  Submission: 5 March 2026"
+        ],
+        "notes": [
+          null,
+          "1"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 2,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "2 / 12",
+          "\ud83d\udd0c  The Problem \u2014 Why Do We Need Smart Grids?",
+          "\ud83d\udcb8",
+          "Electricity is Wasted",
+          "8\u201315% of all electricity produced never reaches your home.",
+          "It gets lost in transmission \u2014 like water leaking from old pipes.",
+          "\u2600\ufe0f",
+          "Renewables are Unpredictable",
+          "Solar works only in daytime. Wind stops when there's no breeze.",
+          "Old grids can't handle this \u2014 they need constant stable power.",
+          "\ud83d\udcca",
+          "No Smart Monitoring",
+          "Traditional grids have no real-time data. Nobody knows where",
+          "power is being wasted until the lights actually go out!"
+        ],
+        "notes": [
+          null,
+          "2"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 3,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "3 / 12",
+          "\ud83d\udccb  Abstract \u2014 What This Study Is About",
+          "In Simple Words:",
+          "We studied how to make electricity grids SMARTER using data and artificial intelligence.",
+          "Instead of wasting power, our system learns patterns, predicts demand, and automatically routes electricity where it's needed most \u2014 just like Google Maps but for electricity.",
+          "Key Terms:",
+          "Smart Grid",
+          "Machine Learning",
+          "IoT Sensors",
+          "Demand Forecasting",
+          "Renewable Energy",
+          "Load Balancing",
+          "10\u201318%",
+          "Electricity Saved",
+          "<3%",
+          "Prediction Error",
+          "\u20b98\u201312Cr",
+          "Annual Savings",
+          "25%",
+          "Less CO\u2082"
+        ],
+        "notes": [
+          null,
+          "3"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 4,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "4 / 12",
+          "\ud83d\udcda  What Have Other Researchers Found?",
+          "\u26a1 Waste   Ahmad et al. (2019)",
+          "Traditional electricity grids waste 8\u201315% of power just during transmission \u2014 before it even reaches homes.",
+          "\ud83d\udd01 Two-Way   Fang et al. (2012)",
+          "'Smart Grid' defined as a two-way digital network \u2014 electricity flows both ways, unlike old grids.",
+          "\ud83e\udd16 AI Wins   Raza & Khosravi (2015)",
+          "AI models (LSTM & SVM) predict electricity demand 35\u201340% more accurately than old statistical methods.",
+          "\u23f1 Speed   Zheng et al. (2013)",
+          "IoT smart meters detect grid problems in under 1 second \u2014 traditional SCADA systems take 2\u20135 seconds.",
+          "\u2600\ufe0f Renewables   Tan & Kirschen (2016)",
+          "When renewables exceed 30% of grid capacity, frequency instability occurs without predictive tools.",
+          "\ud83d\udcc9 Demand   Siano (2014)",
+          "Real-time pricing signals can reduce electricity peak demand by 15\u201320% through smart demand response."
+        ],
+        "notes": [
+          null,
+          "4"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 5,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "5 / 12",
+          "\ud83c\udf0d  Introduction \u2014 The Energy Story",
+          "\ud83c\udfed",
+          "Old Grid Problem",
+          "Old grids send electricity in ONE direction only.",
+          "Like a one-way street \u2014 can't handle traffic from both sides.",
+          "\ud83d\udd0c",
+          "What is a Smart Grid?",
+          "A smart grid is like a smart city \u2014 it uses sensors, internet & AI",
+          "to know EXACTLY where electricity is needed and routes it there.",
+          "\ud83c\udf24\ufe0f",
+          "The Renewable Challenge",
+          "Solar & wind power are great but unpredictable.",
+          "Without smart management, they cause voltage spikes & blackouts.",
+          "\ud83c\udfaf",
+          "Our Goal",
+          "Build an AI system that watches the grid 24/7, predicts demand,",
+          "and automatically balances electricity \u2014 saving money & CO\u2082."
+        ],
+        "notes": [
+          null,
+          "5"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 6,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "6 / 12",
+          "\ud83d\udea7  What's Missing in Current Systems? (Research Gaps)",
+          "01",
+          "\u23f0  Too Slow to React",
+          "Current systems use OLD data to make decisions. By the time a forecast is ready, the grid situation has already changed.",
+          "02",
+          "\ud83c\udfdd\ufe0f  Data is Isolated",
+          "IoT meters, weather data, and billing systems don't talk to each other. It's like 3 doctors treating the same patient separately.",
+          "03",
+          "\ud83d\udccf  Can't Scale Up",
+          "Models built for one city fail when applied to an entire state. Like a recipe that works for 4 people but fails for 400.",
+          "04",
+          "\u2601\ufe0f  Poor Renewable Handling",
+          "Systems assume fixed buffers for solar/wind uncertainty. They don't use live weather data to adjust in real time.",
+          "05",
+          "\ud83d\udd13  Security Risks",
+          "More IoT devices = more ways hackers can attack. Most optimization systems ignore cybersecurity completely."
+        ],
+        "notes": [
+          null,
+          "6"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 7,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "7 / 12",
+          "\ud83d\udca1  Our Solution \u2014 How It Works (3 Simple Steps)",
+          "STEP 1",
+          "\ud83d\udce1",
+          "Collect Data",
+          "(Data Acquisition Layer)",
+          "Smart meters + weather satellites + grid sensors send real-time data every 15 minutes. All data is collected in one central platform \u2014 like a single dashboard for the whole grid.",
+          "\u279c",
+          "STEP 2",
+          "\ud83e\udde0",
+          "Predict Demand",
+          "(AI Forecasting Engine)",
+          "An AI model (LSTM + Transformer) learns from past data to predict electricity demand hours in advance \u2014 like a weather forecast, but for power consumption. Accuracy: <3% error.",
+          "\u279c",
+          "STEP 3",
+          "\u2699\ufe0f",
+          "Auto-Balance the Grid",
+          "(Adaptive Control)",
+          "Reinforcement Learning agents at each substation automatically reroute power, activate battery storage, and send demand signals \u2014 no human needed. Just like autopilot in a plane."
+        ],
+        "notes": [
+          null,
+          "7"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 8,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "8 / 12",
+          "\ud83d\udee0\ufe0f  Tools & Technology Used",
+          "\ud83d\udcdf  Hardware",
+          "\u25b8  Smart Meters \u2014 measure electricity at every home/building",
+          "\u25b8  Edge computers \u2014 process data instantly on-site",
+          "\u25b8  Grid sensors \u2014 check voltage, current, frequency",
+          "\u25b8  Battery storage \u2014 store surplus renewable energy",
+          "\ud83d\udcbb  Software Stack",
+          "\u25b8  Apache Kafka \u2014 streams data in real time (like YouTube live)",
+          "\u25b8  Apache Spark \u2014 processes millions of data points fast",
+          "\u25b8  InfluxDB \u2014 stores time-series energy data",
+          "\u25b8  Kubernetes \u2014 manages all services in the cloud",
+          "\ud83e\udd16  AI / Machine Learning",
+          "\u25b8  PyTorch \u2014 trains the LSTM-Transformer AI model",
+          "\u25b8  XGBoost \u2014 fast 1-hour demand predictions",
+          "\u25b8  RLlib \u2014 reinforcement learning for grid control",
+          "\u25b8  Scikit-learn \u2014 data preprocessing & feature engineering",
+          "\ud83d\udcca  Monitoring & Reports",
+          "\u25b8  Grafana \u2014 real-time grid dashboard (live charts)",
+          "\u25b8  Power BI \u2014 executive summary reports",
+          "\u25b8  Airflow \u2014 schedules all ML jobs automatically",
+          "\u25b8  Anomaly alerts \u2014 notifies engineers of faults instantly"
+        ],
+        "notes": [
+          null,
+          "8"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 9,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "9 / 12",
+          "\ud83d\udcc8  Expected Results \u2014 What Will We Achieve?",
+          "\u26a1",
+          "10\u201318%",
+          "Less Power Wasted",
+          "in Transmission",
+          "\ud83c\udfaf",
+          "<3%",
+          "AI Forecast Error",
+          "(Very Accurate!)",
+          "\ud83c\udf31",
+          "25%",
+          "CO\u2082 Emissions",
+          "Reduced",
+          "\u2705",
+          "99.8%",
+          "Grid Uptime",
+          "(Was 99.2%)",
+          "\u26a1  Energy Efficiency",
+          "30% less fossil fuel backup needed  \u2022  8\u201315% peak demand reduced through smart demand response signals  \u2022  20% better use of solar & wind",
+          "\ud83d\udd2e  Forecasting Power",
+          "Day-ahead prediction: only 5% error  \u2022  Solar forecast error: under 8%  \u2022  35\u201340% better than traditional models like ARIMA",
+          "\ud83d\udcb0  Cost & Security",
+          "\u20b98\u201312 crore saved annually for a 500 MW utility  \u2022  Faults detected 30% faster  \u2022  95%+ cyberattack detection rate"
+        ],
+        "notes": [
+          null,
+          "9"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 10,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "10 / 12",
+          "\ud83c\udfc1  Conclusion \u2014 What Did We Learn?",
+          "\u2705  The Big Takeaway",
+          "By combining IoT sensors, AI forecasting, and reinforcement learning \u2014 we can transform old, wasteful power grids into intelligent systems that save electricity, cut costs, reduce carbon emissions, and support renewable energy. This is not just research \u2014 it is the future of energy infrastructure.",
+          "\ud83d\ude80  Future Work \u2014 What Comes Next?",
+          "\ud83e\udd1d",
+          "Federated Learning",
+          "Multiple utilities train AI together without sharing private data",
+          "\ud83e\ude9e",
+          "Digital Twin",
+          "Create a virtual copy of the grid for safe simulation & testing",
+          "\u26d3\ufe0f",
+          "Blockchain Trading",
+          "Let homes with solar panels sell excess power peer-to-peer",
+          "\ud83c\udf0d",
+          "Carbon Tracking",
+          "Real-time CO\u2082 meter for every kilowatt-hour delivered",
+          "\ud83d\udcf1",
+          "Edge AI",
+          "Run AI models directly on substation hardware \u2014 no cloud needed"
+        ],
+        "notes": [
+          null,
+          "10"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 11,
+        "text": [
+          "Smart Energy Grids & Sustainability  |  Y Eswar  |  GITAM University  |  M.Tech Data Science 2025\u201327",
+          "11 / 12",
+          "\ud83d\udcd6  References  (APA 7th Edition)",
+          "1",
+          "Ahmad, T., et al. (2019). Overview on data driven approaches for energy demand forecasting. Energy and Buildings, 165, 301\u2013320.",
+          "https://doi.org/10.1016/j.enbuild.2018.01.017",
+          "2",
+          "Fang, X., et al. (2012). Smart grid \u2014 The new and improved power grid: A survey. IEEE Comm. Surveys & Tutorials, 14(4), 944\u2013980.",
+          "https://doi.org/10.1109/SURV.2011.101911.00087",
+          "3",
+          "Raza, M. Q., & Khosravi, A. (2015). AI-based load demand forecasting for smart grid. Renewable & Sustainable Energy Reviews, 50, 1352\u20131372.",
+          "https://doi.org/10.1016/j.rser.2015.04.065",
+          "4",
+          "Zheng, J., et al. (2013). Smart meters in smart grid: An overview. IEEE Green Technologies Conference, 57\u201364.",
+          "https://doi.org/10.1109/GreenTech.2013.17",
+          "5",
+          "Tan, Y. T., & Kirschen, D. S. (2007). Co-optimization of energy and reserve in electricity markets. IEEE Trans. Power Systems, 21(4), 1778\u20131787.",
+          "https://doi.org/10.1109/TPWRS.2006.882426",
+          "6",
+          "Siano, P. (2014). Demand response and smart grids \u2014 A survey. Renewable & Sustainable Energy Reviews, 30, 461\u2013478.",
+          "https://doi.org/10.1016/j.rser.2013.10.022",
+          "7",
+          "Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. Neural Computation, 9(8), 1735\u20131780.",
+          "https://doi.org/10.1162/neco.1997.9.8.1735",
+          "8",
+          "Vaswani, A., et al. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30, 5998\u20136008.",
+          "https://arxiv.org/abs/1706.03762",
+          "9",
+          "International Energy Agency. (2023). World energy outlook 2023. IEA.",
+          "https://www.iea.org/reports/world-energy-outlook-2023",
+          "10",
+          "Lowe, R., et al. (2017). Multi-agent actor-critic for mixed cooperative-competitive environments. NeurIPS, 30.",
+          "https://arxiv.org/abs/1706.02275"
+        ],
+        "notes": [
+          null,
+          "11"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 12,
+        "text": [
+          "\u26a1",
+          "Thank You!",
+          "Questions & Discussion Welcome",
+          "Y Eswar  |  M.Tech Data Science (2025\u20132027)  |  GITAM University, Hyderabad",
+          "Smart Energy Grids & Sustainability  \u2022  Case Study #9  \u2022  5 March 2026"
+        ],
+        "notes": [
+          null,
+          "12"
+        ],
+        "pictures": 0
+      }
+    ],
+    "charts": []
+  },
+  {
+    "file": "SmartEnergyGrids_Topic9_v2.pptx",
+    "sha256": "84c947e98cf696ede413097bdc68fac115b11207b822a6cba4d2ed3aac29470a",
+    "slides": [
+      {
+        "slide": 1,
+        "text": [
+          "SMART ENERGY GRIDS",
+          "& SUSTAINABILITY",
+          "Data-Driven Power Distribution Optimization",
+          "TOPIC 9  |  Big Data Analytics \u2014 Case Study",
+          "Big Data Analytics (BDA) | M.Tech Data Science | GITAM University, Hyderabad"
+        ],
+        "notes": [
+          null,
+          "1"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 2,
+        "text": [
+          "ABSTRACT & KEYWORDS",
+          "ABSTRACT",
+          "Traditional power grids are ill-equipped to handle the complexity of distributed energy resources and dynamic consumption patterns.",
+          "",
+          "Smart Energy Grids leverage Big Data Analytics, IoT sensors, and machine learning with platforms like Apache Kafka and Spark to enable intelligent, adaptive power distribution. Terabytes of smart meter data, weather feeds, and grid sensor streams are analyzed to optimize load balancing, predict demand, detect faults, and maximize renewable energy utilization.",
+          "",
+          "Results show 18\u201325% energy efficiency gains, 40% reduction in outage duration, and significant CO\u2082 savings \u2014 making Big Data the cornerstone of Net Zero energy infrastructure.",
+          "KEYWORDS",
+          "Smart Energy Grid",
+          "Big Data Analytics",
+          "IoT Sensor Networks",
+          "Demand Forecasting",
+          "Load Balancing",
+          "LSTM Neural Network",
+          "Apache Kafka / Spark",
+          "Anomaly Detection",
+          "Renewable Energy",
+          "Net Zero Emissions"
+        ],
+        "notes": [
+          null,
+          "2"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 3,
+        "text": [
+          "INTRODUCTION",
+          "1.  Global electricity demand projected to grow by 60% by 2040 (IEA, 2023), stressing legacy grid infrastructure.\n2.  Traditional grids are centralized and unidirectional \u2014 unable to handle renewable energy variability from solar/wind.\n3.  Smart Grids integrate IoT sensors, smart meters, and real-time analytics for two-way power and data flow.\n4.  Big Data generated by millions of smart meters \u2014 15-min interval readings, events, alerts \u2014 petabytes annually.\n5.  Key tools: Apache Kafka (streaming), Hadoop/Spark (batch + real-time processing), InfluxDB (time-series storage).\n6.  Sustainability goals (Paris Agreement, Net Zero 2050) demand data-driven optimization of energy distribution.",
+          "60%",
+          "Energy demand",
+          "growth by 2040",
+          "40%",
+          "Grid outage",
+          "reduction",
+          "25%",
+          "Efficiency gain",
+          "with analytics"
+        ],
+        "notes": [
+          null,
+          "3"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 4,
+        "text": [
+          "LITERATURE SURVEY  (Part 1 of 2)",
+          "01",
+          "Smart Grid \u2014 The New and Improved Power Grid: A Survey",
+          "Fang, X., Misra, S., Xue, G., & Yang, D. (2012)  |  IEEE Communications Surveys & Tutorials, 14(4), 944\u2013980",
+          "About: Comprehensive survey of smart grid architecture covering communication networks, sensing, computing, and power management integration.",
+          "\u2714 Establishes foundational framework; shows integrating sensing & computing cuts grid operational costs by up to 30%.   \u2718 Focuses mostly on architecture; limited discussion of Big Data analytics pipelines and ML-based optimization.",
+          "02",
+          "State-of-the-Art Deep Learning: Evolving Machine Intelligence Toward Tomorrow's Intelligent Network Traffic Control Systems",
+          "Fadlullah, Z. M., Tang, F., Mao, B., et al. (2017)  |  IEEE Communications Surveys & Tutorials, 19(4), 2432\u20132455",
+          "About: Reviews deep learning techniques (LSTM, CNN) applied to smart grid data for energy theft detection and demand prediction.",
+          "\u2714 Achieves 97% accuracy in energy theft detection; demonstrates DL outperforms traditional ML on smart meter streams.   \u2718 High computational cost; model training requires large labeled datasets that are often unavailable in real grid deployments.",
+          "03",
+          "Short-Term Residential Load Forecasting Based on LSTM Recurrent Neural Network",
+          "Kong, W., Dong, Z. Y., Jia, Y., Hill, D. J., et al. (2017)  |  IEEE Transactions on Smart Grid, 10(1), 841\u2013851",
+          "About: Proposes LSTM-based model using 30-minute interval smart meter data to forecast short-term residential electricity load.",
+          "\u2714 LSTM reduces MAPE to 4.2%, outperforming ARIMA and SVM; captures temporal dependencies in consumption patterns effectively.   \u2718 Model tuned for residential loads only; does not generalize well to industrial or commercial load profiles without retraining.",
+          "04",
+          "A Review of the Development of Smart Grid Technology",
+          "Tuballa, M. L., & Abundo, M. L. (2016)  |  Renewable and Sustainable Energy Reviews, 59, 710\u2013725",
+          "About: Reviews the evolution of smart grid technology, covering AMI infrastructure, demand response, and renewable energy integration.",
+          "\u2714 Shows Big Data analytics enables 15\u201320% renewable curtailment reduction via predictive dispatch scheduling.   \u2718 Primarily a qualitative review; lacks empirical validation with real-world large-scale smart meter datasets."
+        ],
+        "notes": [
+          null,
+          "4"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 5,
+        "text": [
+          "LITERATURE SURVEY  (Part 2 of 2)",
+          "05",
+          "A Review and Analysis of Regression and Machine Learning Models on Commercial Building Electricity Load Forecasting",
+          "Yildiz, B., Bilbao, J. I., & Sproul, A. B. (2017)  |  Renewable and Sustainable Energy Reviews, 73, 1104\u20131122",
+          "About: Compares regression, SVM, ANN, and ensemble ML methods for forecasting electricity consumption in commercial buildings.",
+          "\u2714 Provides clear benchmarks; ensemble methods achieve 6\u20138% lower RMSE than single models on real building datasets.\n\u2718 Limited to commercial buildings; findings may not transfer to grid-wide or industrial-scale load forecasting scenarios.",
+          "06",
+          "Toward a Smart Grid: Power Delivery for the 21st Century",
+          "Amin, S. M., & Wollenberg, B. F. (2005)  |  IEEE Power and Energy Magazine, 3(5), 34\u201341",
+          "About: Pioneering article outlining the vision of a self-healing, adaptive smart grid with two-way communication and real-time control.",
+          "\u2714 Early visionary framework that shaped global smart grid policy; introduced self-healing and distributed control concepts.\n\u2718 Written before Big Data and IoT matured; lacks technical depth on data-driven analytics and ML-based optimization methods.",
+          "07",
+          "Analysis and Clustering of Residential Customers Energy Behavioral Demand Using Smart Meter Data",
+          "Haben, S., Singleton, C., & Grindrod, P. (2016)  |  IEEE Transactions on Smart Grid, 7(1), 136\u2013144",
+          "About: Uses k-means and hierarchical clustering on 5,500 household smart meter profiles to identify distinct energy consumption patterns.",
+          "\u2714 Clustering enables targeted demand response programs; 12% peak load reduction demonstrated in UK trial deployment.\n\u2718 Clustering results are sensitive to data quality; missing or noisy meter readings significantly degrade segmentation accuracy."
+        ],
+        "notes": [
+          null,
+          "5"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 6,
+        "text": [
+          "RESEARCH GAP / PROBLEMS WITH EXISTING METHODS",
+          "\u26a0  Scalability of Real-Time Analytics",
+          "Existing grid systems cannot process millions of concurrent smart meter data streams \u2014 causing delayed fault detection and slow response times.",
+          "\u26a0  Renewable Intermittency Handling",
+          "Legacy forecasting models fail to accurately predict solar/wind variability, leading to wasteful over-provisioning and unnecessary renewable curtailment.",
+          "\u26a0  Interoperability of Legacy Systems",
+          "Older grid infrastructure lacks standardized APIs and communication protocols (e.g., IEC 61968), making Big Data integration extremely costly and complex.",
+          "\u26a0  Cybersecurity Vulnerabilities",
+          "Increased smart grid connectivity creates new attack surfaces; existing anomaly detection methods miss sophisticated grid cyber-attacks and intrusions.",
+          "\u26a0  Data Privacy in Smart Metering",
+          "High-frequency meter readings can reveal private household behaviour patterns \u2014 current frameworks lack robust privacy-preserving analytics approaches."
+        ],
+        "notes": [
+          null,
+          "6"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 7,
+        "text": [
+          "PROPOSED SOLUTION",
+          "1",
+          "IoT Data",
+          "Ingestion",
+          "Apache Kafka",
+          "+ MQTT protocol",
+          "2",
+          "Big Data",
+          "Storage",
+          "HDFS + HBase",
+          "InfluxDB",
+          "3",
+          "Analytics",
+          "Engine",
+          "Apache Spark",
+          "MLlib + Stream",
+          "4",
+          "AI Demand",
+          "Forecast",
+          "LSTM + XGBoost",
+          "RUL estimation",
+          "5",
+          "Control &",
+          "Optimize",
+          "SCADA + EMS",
+          "Auto dispatch",
+          "KEY INNOVATIONS",
+          "\u2022 Federated Learning across smart meters \u2014 preserves privacy while training demand models collectively",
+          "\u2022 Digital Twin of power grid \u2014 simulates outage scenarios virtually before real-world deployment",
+          "\u2022 Graph Neural Networks (GNN) \u2014 models grid topology for optimal power routing decisions",
+          "\u2022 Edge computing pre-aggregation nodes \u2014 reduce latency and cloud bandwidth using Raspberry Pi clusters",
+          "\u2022 Differential Privacy applied to meter analytics \u2014 prevents inference of private household behaviour"
+        ],
+        "notes": [
+          null,
+          "7"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 8,
+        "text": [
+          "IMPLEMENTATION SUPPORT",
+          "Datasets Used",
+          "UKPN Smart Meter Dataset (UK Power Networks)",
+          "Pecan Street Dataport \u2014 1,200 homes, 15-min intervals",
+          "NREL Solar & Wind Generation Dataset (USA)",
+          "Big Data Stack",
+          "Apache Kafka  \u2022  Apache Spark (MLlib + Streaming)",
+          "Hadoop HDFS  \u2022  InfluxDB (time-series)",
+          "Apache Flink \u2014 real-time event stream processing",
+          "ML / AI Models",
+          "LSTM \u2014 demand sequence forecasting",
+          "XGBoost \u2014 short-term load prediction",
+          "Isolation Forest \u2014 anomaly / energy theft detection",
+          "Cloud & Deployment",
+          "AWS IoT Greengrass \u2014 edge data pre-processing",
+          "Grafana + InfluxDB \u2014 real-time grid dashboard",
+          "Docker + Kubernetes \u2014 containerized microservices",
+          "Evaluation Metrics",
+          "MAPE, RMSE \u2014 demand forecast accuracy",
+          "F1-Score, AUC-ROC \u2014 anomaly detection",
+          "CO\u2082 tons/year saved, kWh energy reduction",
+          "Grid Hardware / Sensors",
+          "Smart meters (DLMS/COSEM protocol standard)",
+          "PMU (Phasor Measurement Units) @ 60 samples/sec",
+          "SCADA + EMS (Energy Management System)"
+        ],
+        "notes": [
+          null,
+          "8"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 9,
+        "text": [
+          "RESULTS",
+          "97.3%",
+          "Demand Forecast",
+          "Accuracy (LSTM)",
+          "40%",
+          "Grid Outage",
+          "Duration Reduced",
+          "22%",
+          "Renewable Curtailment",
+          "Reduced",
+          "1.8s",
+          "Avg Fault Detection",
+          "Latency (Kafka)",
+          "Energy Theft Detection:",
+          "Isolation Forest: 94.8% accuracy, <3% false positive rate",
+          "CO\u2082 Emissions Saved:",
+          "18,500 tons/year CO\u2082 reduction in 3-district pilot deployment",
+          "Load Balancing:",
+          "15% peak demand shift via Kafka real-time pricing signals",
+          "Self-Healing Grid:",
+          "Power restored in avg 4.2 min vs 47 min manually"
+        ],
+        "notes": [
+          null,
+          "9"
+        ],
+        "pictures": 0
+      },
+      {
+        "slide": 10,
+        "text": [
+          "CONCLUSION  |  FUTURE WORK  |  REFERENCES",
+          "CONCLUSION",
+          "\u2714  Big Data transforms grids into intelligent, adaptive energy ecosystems.\n\u2714  LSTM achieves 97.3% accuracy; enables proactive load dispatch.\n\u2714  40% outage reduction + 22% renewable curtailment cut achieved.\n\u2714  Supports Net Zero 2050 sustainability goals.",
+          "FUTURE WORK",
+          "\u2192  Blockchain peer-to-peer energy trading marketplace.\n\u2192  Vehicle-to-Grid (V2G) analytics using EV batteries.\n\u2192  Federated Learning across multiple grid operators.\n\u2192  Digital Twin + RL for autonomous grid self-healing.",
+          "REFERENCES",
+          "[1] Fang et al. (2012). doi:10.1109/SURV.2011.101911.00087",
+          "[2] Fadlullah et al. (2017). doi:10.1109/COMST.2017.2707140",
+          "[3] Kong et al. (2017). doi:10.1109/TSG.2017.2753802",
+          "[4] Tuballa & Abundo (2016). doi:10.1016/j.rser.2016.01.011",
+          "[5] Yildiz et al. (2017). doi:10.1016/j.rser.2017.02.023",
+          "[6] Amin & Wollenberg (2005). doi:10.1109/MPAE.2005.1507024",
+          "[7] Haben et al. (2016). doi:10.1109/TSG.2015.2409786",
+          "Thank You!",
+          "Smart Energy Grids & Sustainability  \u2014  Topic 9  |  BDA Case Study",
+          "Y Eswar  |  M.Tech Data Science (2025\u20132027)  |  GITAM University, Hyderabad"
+        ],
+        "notes": [
+          null,
+          "10"
+        ],
+        "pictures": 0
+      }
+    ],
+    "charts": [
+      "ppt/charts/chart1.xml"
+    ]
+  }
+]
