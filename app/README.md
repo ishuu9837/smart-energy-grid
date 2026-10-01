@@ -130,6 +130,7 @@ Assumptions: lossless instantaneous balancing, no battery model, no network cons
 ├── README.md
 ├── .gitignore
 ├── package.json
+├── vercel.json                 # Vercel build and static output configuration
 ├── dist/                       # Editable and deployable website
 │   ├── index.html              # Page narrative and semantic sections
 │   ├── style.css               # Design, responsive layouts and motion
@@ -185,16 +186,45 @@ Test both architecture views, every use case, all simulation sliders and reset, 
 
 ## Deploy
 
-This is a static website. Publish the **contents of `dist/`** through your static hosting provider, with `index.html` as the default document.
+### Vercel from GitHub
+
+1. Extract `vercel.zip` into a project folder. Push the **extracted files**, rather than the ZIP itself, to GitHub using the commands below.
+2. In Vercel, choose **Add New → Project** and import that GitHub repository.
+3. Keep the Root Directory at the repository root, where `vercel.json` and `package.json` are located. If you place the project in a subfolder, select that subfolder instead.
+4. Confirm the settings below, then select **Deploy**. The included `vercel.json` supplies the framework, install, build and output settings.
 
 | Setting | Value |
 | --- | --- |
-| Install command | None required |
-| Build command | None required; `npm run check` is an optional validation step |
-| Public / publish directory | `dist` |
+| Framework preset | Other |
+| Install command | Empty / skipped; this project has no dependencies |
+| Build command | `npm run build` |
+| Output directory | `dist` |
 | Backend or environment secrets | None |
 
-Preserve `assets/`, `style.css`, `app.js` and `content.js`. Relative URLs support hosting under a repository subpath. The local Node server is for previewing the website; it is not required by a static host.
+The build validates the JavaScript; the complete static website is already in `dist/`. Vercel publishes that directory, including all optimized images. No local preview server, API keys or backend are needed. Navigation uses page anchors, so no catch-all rewrite is required.
+
+Configuration reference: [Vercel's official vercel.json documentation](https://vercel.com/docs/project-configuration/vercel-json).
+
+<details>
+<summary><strong>Deploy using the Vercel CLI instead</strong></summary>
+
+From the extracted project root, run:
+
+```bash
+npx vercel
+```
+
+Follow the account and project prompts to create a preview deployment. When ready to publish production:
+
+```bash
+npx vercel --prod
+```
+
+</details>
+
+### Other static hosts
+
+Publish the **contents of `dist/`**, with `index.html` as the default document. Preserve `assets/`, `style.css`, `app.js` and `content.js`. Relative URLs support hosting under a repository subpath.
 
 ## Push to GitHub
 
@@ -209,7 +239,7 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 git push -u origin main
 ```
 
-If the project is already in a Git repository, use its existing remote and branch instead of initializing it again. Upload the extracted project files so `README.md`, `package.json` and `dist/` sit at the repository root.
+If the project is already in a Git repository, use its existing remote and branch instead of initializing it again. Upload the extracted project files so `README.md`, `package.json`, `vercel.json` and `dist/` sit at the repository root.
 
 ## Content and project status
 
